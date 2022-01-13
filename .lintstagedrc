@@ -1,0 +1,7 @@
+{
+  "*.{ts,tsx,d.ts}": [
+    "yarn lint:tsc-files",
+    "yarn lint:eslint",
+    "yarn lint:prettier"
+  ]
+}
